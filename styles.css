@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 250px;
+  background: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+}
+.sidebar h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar ul li a {
+  color: white;
+  text-decoration: underline;
+  display: block;
+  padding: 20px;
+  background: #444;
+  border-radius: 2px;
+  text-align: center;
+}
+.sidebar ul li a:hover {
+  background: #555;
+}
+.main-content {
+  margin-left: 250px;
+  padding: 50px 20px;
+  flex-grow: 1;
+}
+.main-content h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.project-blurb {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 300;
+}
+.section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.section h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.section h4 {
+  font-weight: 400;
+  padding-left: 20px;
+}
+.sec1-imgs {
+  max-width: auto;
+  height: 400px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.sec2-tbls {
+  max-width: 500px;
+  height: auto;
+}
+.sec3-imgs {
+  max-width: auto;
+  height: 350px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.sec4-mdls {
+  max-width: 800px;
+  height: auto;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+figcaption {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+  padding: 10px;
+}
+.section ul {
+  list-style-position: inside;
+  padding-left: 40px;
+  margin: 0;
+  text-align: left;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+  text-indent: -20px;
+  padding-left: 20px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+  width: 100%;
+  font-weight: 300;
+}
