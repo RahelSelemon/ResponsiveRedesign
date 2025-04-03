@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personas & Storyboarding</title>
+    <title>Responsive Redesign</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,133 +14,173 @@
   </head>
   <body>
     <nav class="sidebar">
-      <h1>Personas & Storyboarding</h1>
+      <h1>Responsive Redesign</h1>
       <ul>
-        <li><a href="#section1">The Interface</a></li>
-        <li><a href="#section2">User Observations and Interviews</a></li>
-        <li><a href="#section3">Summaries and Similarities</a></li>
-        <li><a href="#section4">Two Personas</a></li>
-        <li><a href="#section5">Eddie's Story</a></li>
-        <li><a href="#section6">Reflection</a></li>
+        <li><a href="#section1">The Website</a></li>
+        <li><a href="#section2">Analysis of the Current Site</a></li>
+        <li><a href="#section3">Analysis cont.</a></li>
+        <li><a href="#section4">Visual Design Style Guide</a></li>
+        <li><a href="#section5">Figma Mockups</a></li>
+        <li><a href="#section6">Bringing the Site to Life</a></li>
+        <li><a href="#section7">Reflection</a></li>
       </ul>
     </nav>
     <div class="main-content">
-      <h2>Understanding User Experience Through Personas & Storyboarding</h2>
+      <h2>Redesigning federalreserve.gov</h2>
       <div class="project-blurb">
-        Join me as I learn to understand and convey the user experience for an commonplace interface!
+        Redesigning a website of my choice for improved responsiveness as well as efficiency, learnability, memorability, and accesibility!
       </div>
      
       <div id="section1" class="section">
-        <h3>The Interface</h3>
+        <h3>The Website</h3>
         <p>
-          The interface I chose to examine was Brown's printer.
-          I chose to focus on the ones in the Scili since I noticed that they got a lot of traffic.
-          Students can use this machine to print in Color or Black & White through the MyPrint application. 
-          In general, they must 
-          (1) authenticate with their Brown account
-          (2) select the documents they would like to print using the touch-screen interface at a designated machine. 
-          This interface allows Brown students to make print requests remotely and select which documents they want to release in-person, if they wish. 
-          Because printing is tied to a students account, Brown can track prints and bill students for the amount of releases they complete. 
-          While the MyPrint interface can be convenient, some users struggle with its remote upload process and lack of clear feedback on printing status. 
-
-          <br><br>Here is a sketch labeled the machine's interactive components: <br><br>
+          I will redesign <u><a href="https://www.federalreserve.gov/">federalreserve.gov</a></u> because, despite providing crucial information, its layout can make navigation and information retrieval cumbersome. 
+          Since the website is updated daily and serves as a key resource for those tracking economic changes, it should be more user-friendly.
+          Additionally, in today’s world, a transparent government is crucial so the website must be easily accessible for the average person seeking to stay informed.
+          <br><br>Here is the homepage of the website: <br><br>
 
           <div class="image-container">
             <figure>
-              <img src="images/PrinterSketch.jpg" class="sec1-imgs" />
-              <figcaption>Scili Printer</figcaption>
+              <img src="images/website1.png" class="sec1-imgs" />
+            </figure>
+            <figure>
+              <img src="images/website2.png" class="sec1-imgs" />
             </figure>
           </div>
         </p>
       </div>
 
       <div id="section2" class="section">
-        <h3>User Observations and Interviews</h3>
-        <p>
-            To better understand the user experience when interacting with this device, I conducted brief interviews with 3 individuals.
-            I initially observed all these individuals while use the printer, interviewed them, then considered their similarities.
-            I asked almost the same questions for each participant, omitting those that weren't relevant to their experience.
-            I will include our detailed dialagoues here along with a summary in the next section.
+        <h3>Analysis of the Current Site</h3>
           <div>
-            <br>
-            <figure>
-              <img src="images/user1.png" class="sec2-tbls">              
-              <figcaption>Interview dialogue: User 1</figcaption>
-            </figure>
-            <br>
-            <figure>
-              <img src="images/user2.png" class="sec2-tbls">              
-              <figcaption>Interview dialogue: User 2</figcaption>
-            </figure>
-            <br>
-            <figure>
-              <img src="images/user3.png" class="sec2-tbls">              
-              <figcaption>Interview dialogue: User 3</figcaption>
-            </figure>
+              <h4>Efficiency</h4>
+              <ul>
+              <li><span class="bold-term">Spacing Issues</span> – The text is too dense, making it difficult to read.</li>
+              <li><span class="bold-term">Organization</span> – While information is grouped under menus, there are still too many categories. More collapsibility is needed to improve navigation.</li>
+              <li><span class="bold-term">Key Information Visibility</span> – Important economic indicators are prominent.</li>
+              <li><span class="bold-term">Chronological Order</span> – Recent developments are displayed in order, which is helpful.</li>
+              <li><span class="bold-term">Redundancy</span> – Some information is repeated unnecessarily, adding clutter.</li>
+              </ul>
           </div>
-        </p>
+          <div>
+              <h4>Learnability</h4>
+              <ul>
+              <li><span class="bold-term">Clickability Confusion</span> – It’s difficult to distinguish between clickable links and plain text.</li>
+              <li><span class="bold-term">Lack of Headers</span> – Missing headers make it harder to scan and organize information.</li>
+              <li><span class="bold-term">Navigation Challenges</span> – Users unfamiliar with economic terminology may struggle to know where to start.</li>
+              <li><span class="bold-term">Icons</span> – Some icons are used, but they can be misleading or unclear.</li>
+              <li><span class="bold-term">Charts as a Strength</span> – Charts help users scan information, especially those unfamiliar with the content.</li>
+              </ul>
+          </div>
+          <div>
+              <h4>Memorability</h4>
+              <ul>
+              <li><span class="bold-term">Navigation Difficulties</span> – The website structure makes it hard for users to remember where things are.</li>
+              <li><span class="bold-term">Lack of Headers</span> – Missing section titles make content harder to recall.</li>
+              <li><span class="bold-term">Uninformative Icons</span> – Icons do not effectively help users make associations with content.</li>
+              <li><span class="bold-term">Lack of Guidance</span> – Minimal instructions make it difficult for users unfamiliar with economic terms to navigate.</li>
+              </ul>
+            </div>
+          <div>
+              <h4>Accessibility</h4>
+              <ul>
+              <li><span class="bold-term">Small Text</span> – The text size is too small, with little variation for readability.</li>
+              <li><span class="bold-term">Low Contrast</span> – The color scheme consists mostly of different shades of blue, making content harder to read.</li>
+              </ul>
+            </div>
       </div>
       <div id="section3" class="section">
-        <h3>Summaries and Similarities</h3>
-        <p>
-          Across all three users, a few patterns stood out. 
-          <ul>
-            <li>All users eventually completed their prints successfully.</li>
-            <li>Many had to switch printers due to errors, delays, or unresponsive machines.</li>
-            <li>Users often struggled with the remote upload system, or found it unintuitive, especially those new to MyPrint.</li>
-            <li>Even experienced users found the website difficult to navigate due to the lack of printing options.</li>
-            <li>As expected, waiting times varied based on print size. </li>
-            <li>Payment issues also surfaced, with one user running out of funds without prior warning. </li>
-            <li>Users had to troubleshoot through trial and error rather than clear system feedback. </li>
-          </ul>
-        </p>
-       
+        <h3>Analysis cont.</h3>
+          <div> 
+            <h4> <u><a href="https://wave.webaim.org/">WAVE</a></u> (web accessibility) Issues</h4>
+            <ul>
+              <li>The website has some notable accessibility issues, including <span class="bold-term">poor contrast ratios and very small font sizes</span>, which makes text difficult to read, especially for users with visual impairments.</li>
+              <li>WAVE also detected <span class="bold-term">skipped heading levels</span> along with <span class="bold-term">missing captions and alt text</span> for multimedia content, limiting accessibility for users who rely on assistive technologies.</li>
+              <li>Additionally, <span class="bold-term">broken ARIA menus</span> lack proper “menuitem” elements, which can make navigation difficult for those using screen readers or keyboard navigation.</li>
+            </ul>
+          </div>
+          <div> 
+            <h4>Conceptual Model</h4>
+            <ul>
+              <li>Seems to <span class="bold-term">prioritize comprehensiveness over intuitive navigation</span>; you can find what you need if you know where to look for it</li>
+              <li>Implies that the <span class="bold-term">expected user is already economically literate</span> (analyst, politician, businessman, etc…)</li>
+              <li><span class="bold-term">Archive model</span> since it seems its depth and organization of data reflect priority on robust record-keeping</li>
+              <li>Homepage needs a “dashboard-like” model to improve accessibility and <span class="bold-term">guidance for a broader audience</span></li>
+            </ul>  
+          </div>
       </div>
       <div id="section4" class="section">
-        <h3>Two Personas</h3>
-        <p>
-          Imagine a "persona" as an archetypal user of our interface. Here I demonstrate two personas inspired by my observations and interviews.
-          How might their experiences differ? 
-          By splitting their experience into 4 distinct quadrants we can better understand 
-          what each one might've found challenging or convenient: <br><br>
+        <h3>Visual Design Style Guide</h3>
+          To ensure consistency across my redesign process, I developed a style guide outlining a template for the colors, typography, components, and other visual elements I plan to integrate into the final website.
+          <br><br>
+          <div class="image-container">
+          <figure>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="450" src="https://embed.figma.com/design/JUDecipy9KU4FrleB3orDy/Style-Guide?node-id=1-3&embed-host=share" allowfullscreen></iframe>      
+          </figure>
+        </div>
+      </div>
+      <div id="section5" class="section">
+        <h3>Figma Mockups</h3>
+
+          Next I created Figma mockups that illustrate my website's responsiveness on three distinct screen sizes: desktop, tablet, and smartphone.
+          These are annotated with important design choices as well as my intentions for how the site layout will respond to the various screen sizes.
+          <br><br>
 
           <div class="image-container">
             <figure>
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vTpTKh3gUTXjSiQVBqxHLpeHy3zXY8a7L9kvSNIy945aagdZnwYTs7w7yv50iXi_yfbhU1K4qbrXdn9/pub?w=458&amp;h=595" class="sec3-imgs" />
-              <figcaption>Eddie's Persona</figcaption>
-            </figure>
-            <figure>
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vSsMVDBmO2cMU8jRrrnIpahltQrsuD6iZdPU7pSx3OTD3_vl1uZ-MuRdoRcCerrOOkVmNgNsitz-lTL/pub?w=455&amp;h=594" class="sec3-imgs" />
-              <figcaption>Fifi's Persona</figcaption>
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="700" height="500" src="https://embed.figma.com/design/cWBCITTVElLs2tJRTkReZ2/Mockups?node-id=0-1&embed-host=share" allowfullscreen></iframe>            
             </figure>
           </div>
 
-          Eddie’s persona is not only unfamiliar with the Brown printing interface but he is already flustered about his test. All the printers Eddie has used in the past require him to physically connect his laptop to upload documents. However, Brown's printers require a more complex interaction between the user’s Brown account, their MyPrint session, and the printer itself. Eddie needs to know which platform he should be using to complete each step. Although none of the users I spoke to were first time users, their observations indicated that there were quite a few features that might not be obvious to a new user. One specifically noted their initial confusion with a lack of options for a physical connection with the printer. Others mentioned that they had only done remote printing at Brown and were put-off by it initially. Though all three users were somewhat seasoned operators of Brown printers, all were using it for relatively last-minute and high stakes contexts. This demonstrates the need for a seamless experience with little room for error or time waste.           
-          <br><br>
-          Fifi’s Persona is more familiar with the Brown printer interface but that doesn’t mean she doesn’t face her own issues. She feels like the printer interface doesn’t give her enough agency or control over the final product. The MyPrint website doesn’t allow her to choose the scale or resolution of her image so she can’t know whether it’s going to work until she releases the print. The ability to preview her document through either the online or in-person interface would save her lots of time in repeated trial-and-error but also a lot of money. The users I interviewed generally thought that the efficiency of the printer matched their expectations and was relatively fast. However, from my observations, I could see that most of the time they spent during the process was from the overhead rather than the release itself. By being up-front and consistent about the current state of each printer in the Brown system, users can get what they need without multiple tries.         </p>
-      </div>
-
-      <div id="section5" class="section">
-        <h3>Eddie's Storyboard</h3>
-          The followingt storyboard below illustrates Eddie’s printing journey, conveying the emotions and experiences of his persona. 
-        <div>
-          <br>
-          <figure>
-            <img src="https://docs.google.com/drawings/d/e/2PACX-1vRjA-1JMpeXkH4RM5GhQaSUXgrhJhfKgVfFOrezKfF4sckfBw_LCBo-H9BbP6lnibJiOyNjzUF20cLL/pub?w=1566&amp;h=611" class="sec4-mdls" />
-          </figure>
-          <br>
-        </div>
       </div>
 
       <div id="section6" class="section">
+        <h3>Bringing the Site to Life</h3>
+          The next step is implementing my mockup with HTML/CSS to achieve the desired responsiveness.
+          <br><br>
+          Click <u><a href="https://rahelselemon.github.io/FederalReserve/">here</a></u> to interact with my redesigned website!
+          <br><br>
+          Here is a comparison of the original vs redesigned homepage on a desktop:
+          <br><br>
+
+          <div class="image-container">
+            <figure>
+              <img src="images/website1.png" class="sec6-imgs" />
+            </figure>
+            <figure>
+              <img src="images/redesign.png" class="sec6-imgs" />
+            </figure>
+          </div>
+      </div>
+
+      <div id="section7" class="section">
         <h3>Reflection</h3>
         <p>
-          This project helped me better understand challenges users face when interacting with everyday interfaces. 
-          Through observations and interviews, I noticed how users can sometimes adapt to inefficiencies rather than questioning them. Many participants accepted the frustrations of the MyPrint system as a given, despite its unintuitive design. 
-          During interviews, some users were more enthusiastic than others to tell me about their (sometimes subpar) experiences with Brown printers. 
-          One of the most important things I noticed was the importance of clear guidance and support in public interfaces, especially for first-time users. 
-          Additionally, an interface design can benefit some users at the expense of others. For example, the MyPrint interface is probably convenient for the university by making it easier to track prints and charge for releases. However, as we saw, it came with drawbacks for other users. 
-          I also saw how users are influenced by their past experiences with similar features. When those expectations aren’t met, they might feel lost or frustrated.  
+          <span class="bold-term">Challenge:</span> Making improvements to the website while maintaining them across different screen sizes!
+        </p>
+        <br>
+        <p>
+          <span class="bold-term">How I achieved this:</span>
+          <ul>
+            <li><span class="bold-term">Contrast Issues:</span> Designed a new color palette with a stronger contrast ratio (8.59), improving accessibility.</li>
+            <li><span class="bold-term">Better Spacing:</span> Applied effective padding/margins and used boxes to separate distinct items.</li>
+            <li><span class="bold-term">Text Size and Hierarchy:</span> Increased minimum text size and introduced more variation to emphasize hierarchy and importance.</li>
+            <li><span class="bold-term">Clutter Reduction:</span> Consolidated navigation items into a collapsible menu, replaced multiple top navigation bars with a footer, and limited the display to the 3 most recent headlines instead of 10+.</li>
+            <li><span class="bold-term">Graphics:</span> Incorporated more informative icons and added animations to indicate clickable links.</li>
+          </ul>
+        </p>
+        <br>
+        <p>
+          <span class="bold-term">Conclusions:</span> 
+          Overall, I believe my improvements were successful! My primary goal was to make the page less overwhelming for users, allowing them to navigate and understand information more efficiently. 
+          By reducing clutter and improving visual hierarchy, users can now quickly scan for relevant content. 
+        </p>
+        <p>
+          For example, simplifying the layout around the economic charts helped present them as “at-a-glance” indicators rather than overwhelming data. 
+          Additionally, reducing the initial amount of visible text and providing a “See More” button allows users to control how much information they engage with.
+        </p>
+        <p>
+          This approach ensures that new users can intuitively learn how to retrieve specific information and remember their navigation paths using the “Sections” menu and Search bar.
         </p>
       </div>
     </div>

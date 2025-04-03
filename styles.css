@@ -79,7 +79,7 @@ body {
 }
 .sec1-imgs {
   max-width: auto;
-  height: 400px;
+  height: 200px;
   border: 1px solid #333;
   border-radius: 5px;
 }
@@ -87,9 +87,10 @@ body {
   max-width: 500px;
   height: auto;
 }
-.sec3-imgs {
-  max-width: auto;
-  height: 350px;
+.sec6-imgs {
+  /* max-width: auto; */
+  width: 300px;
+  height: 200px;
   border: 1px solid #333;
   border-radius: 5px;
 }
@@ -128,6 +129,10 @@ figcaption {
   margin-bottom: 10px;
   text-indent: -20px;
   padding-left: 20px;
+}
+.bold-term {
+  font-weight: bold;
+  color: #34495e;
 }
 footer {
   text-align: center;
