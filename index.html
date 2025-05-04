@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -16,174 +16,246 @@
     <nav class="sidebar">
       <h1>Responsive Redesign</h1>
       <ul>
-        <li><a href="#section1">The Website</a></li>
-        <li><a href="#section2">Analysis of the Current Site</a></li>
-        <li><a href="#section3">Analysis cont.</a></li>
-        <li><a href="#section4">Visual Design Style Guide</a></li>
-        <li><a href="#section5">Figma Mockups</a></li>
-        <li><a href="#section6">Bringing the Site to Life</a></li>
+        <li><a href="#section1">Why This Site?</a></li>
+        <li><a href="#section2">Usability Audit</a></li>
+        <li><a href="#section3">Accessibility Testing & Mental Model</a></li>
+        <li><a href="#section4">Style Guide</a></li>
+        <li><a href="#section5">Annotated Mockups</a></li>
+        <li><a href="#section6">Live Redesign</a></li>
         <li><a href="#section7">Reflection</a></li>
       </ul>
     </nav>
     <div class="main-content">
       <h2>Redesigning federalreserve.gov</h2>
       <div class="project-blurb">
-        Redesigning a website of my choice for improved responsiveness as well as efficiency, learnability, memorability, and accesibility!
+        Redesigning a public-facing site to improve responsiveness,
+        accessibility, clarity, and user confidence—regardless of their
+        background.
       </div>
-     
-      <div id="section1" class="section">
-        <h3>The Website</h3>
-        <p>
-          I will redesign <u><a href="https://www.federalreserve.gov/">federalreserve.gov</a></u> because, despite providing crucial information, its layout can make navigation and information retrieval cumbersome. 
-          Since the website is updated daily and serves as a key resource for those tracking economic changes, it should be more user-friendly.
-          Additionally, in today’s world, a transparent government is crucial so the website must be easily accessible for the average person seeking to stay informed.
-          <br><br>Here is the homepage of the website: <br><br>
 
-          <div class="image-container">
-            <figure>
-              <img src="images/website1.png" class="sec1-imgs" />
-            </figure>
-            <figure>
-              <img src="images/website2.png" class="sec1-imgs" />
-            </figure>
-          </div>
+      <div id="why-redesign-the-federal-reserve-website" class="section">
+        <h3>Why Redesign the Federal Reserve Website?</h3>
+        <p>
+          The
+          <a href="https://www.federalreserve.gov/" target="_blank"
+            >federalreserve.gov</a
+          >
+          website plays an important role in public transparency and economic
+          reporting, but its design creates unnecessary barriers for non-expert
+          users. The site is dense, visually overwhelming, and difficult to
+          navigate. Even experienced users may struggle to quickly locate or
+          identify key updates.
         </p>
+        <p>
+          The goal was to make economic data easier to navigate, interpret, and
+          trust for the general public. The redesign focuses on simplifying the
+          site’s structure and layout without sacrificing its depth, to better
+          serve a broader audience.
+        </p>
+        <div class="image-container">
+          <figure>
+            <img src="images/website1.png" class="original-imgs" />
+          </figure>
+          <figure>
+            <img src="images/website2.png" class="original-imgs" />
+          </figure>
+          <figcaption>Original homepage of federalreserve.gov</figcaption>
+        </div>
       </div>
 
       <div id="section2" class="section">
-        <h3>Analysis of the Current Site</h3>
-          <div>
-              <h4>Efficiency</h4>
-              <ul>
-              <li><span class="bold-term">Spacing Issues</span> – The text is too dense, making it difficult to read.</li>
-              <li><span class="bold-term">Organization</span> – While information is grouped under menus, there are still too many categories. More collapsibility is needed to improve navigation.</li>
-              <li><span class="bold-term">Key Information Visibility</span> – Important economic indicators are prominent.</li>
-              <li><span class="bold-term">Chronological Order</span> – Recent developments are displayed in order, which is helpful.</li>
-              <li><span class="bold-term">Redundancy</span> – Some information is repeated unnecessarily, adding clutter.</li>
-              </ul>
-          </div>
-          <div>
-              <h4>Learnability</h4>
-              <ul>
-              <li><span class="bold-term">Clickability Confusion</span> – It’s difficult to distinguish between clickable links and plain text.</li>
-              <li><span class="bold-term">Lack of Headers</span> – Missing headers make it harder to scan and organize information.</li>
-              <li><span class="bold-term">Navigation Challenges</span> – Users unfamiliar with economic terminology may struggle to know where to start.</li>
-              <li><span class="bold-term">Icons</span> – Some icons are used, but they can be misleading or unclear.</li>
-              <li><span class="bold-term">Charts as a Strength</span> – Charts help users scan information, especially those unfamiliar with the content.</li>
-              </ul>
-          </div>
-          <div>
-              <h4>Memorability</h4>
-              <ul>
-              <li><span class="bold-term">Navigation Difficulties</span> – The website structure makes it hard for users to remember where things are.</li>
-              <li><span class="bold-term">Lack of Headers</span> – Missing section titles make content harder to recall.</li>
-              <li><span class="bold-term">Uninformative Icons</span> – Icons do not effectively help users make associations with content.</li>
-              <li><span class="bold-term">Lack of Guidance</span> – Minimal instructions make it difficult for users unfamiliar with economic terms to navigate.</li>
-              </ul>
-            </div>
-          <div>
-              <h4>Accessibility</h4>
-              <ul>
-              <li><span class="bold-term">Small Text</span> – The text size is too small, with little variation for readability.</li>
-              <li><span class="bold-term">Low Contrast</span> – The color scheme consists mostly of different shades of blue, making content harder to read.</li>
-              </ul>
-            </div>
+        <h3>Usability "Audit"</h3>
+        <p>
+          I evaluated the site with a focus on four key areas: efficiency,
+          learnability, memorability, and accessibility. These helped me spot
+          where the experience was falling short in order to make targeted
+          improvements.
+        </p>
+
+        <h4>Efficiency</h4>
+        <ul>
+          <li>Dense text with limited spacing makes reading difficult.</li>
+          <li>
+            Too many top-level categories without collapsibility or
+            prioritization.
+          </li>
+          <li>Redundant headlines lead to visual clutter.</li>
+          <li>Chronological updates are useful and should be retained.</li>
+        </ul>
+
+        <h4>Learnability</h4>
+        <ul>
+          <li>
+            Unclear visual hierarchy between clickable and non-clickable
+            elements.
+          </li>
+          <li>Lack of headers and guiding text makes orientation difficult.</li>
+          <li>
+            Assumes financial literacy without supporting unfamiliar users.
+          </li>
+          <li>Icons are underutilized or misleading.</li>
+        </ul>
+
+        <h4>Memorability</h4>
+        <ul>
+          <li>
+            Users struggle to retrace their steps due to poor structural logic.
+          </li>
+          <li>Inconsistent section labels and navigation pathways.</li>
+        </ul>
+
+        <h4>Accessibility</h4>
+        <ul>
+          <li>
+            Small, low-contrast text poses challenges for visually impaired
+            users.
+          </li>
+          <li>
+            Color palette lacks sufficient variation to support readability.
+          </li>
+        </ul>
       </div>
-      <div id="section3" class="section">
-        <h3>Analysis cont.</h3>
-          <div> 
-            <h4> <u><a href="https://wave.webaim.org/">WAVE</a></u> (web accessibility) Issues</h4>
-            <ul>
-              <li>The website has some notable accessibility issues, including <span class="bold-term">poor contrast ratios and very small font sizes</span>, which makes text difficult to read, especially for users with visual impairments.</li>
-              <li>WAVE also detected <span class="bold-term">skipped heading levels</span> along with <span class="bold-term">missing captions and alt text</span> for multimedia content, limiting accessibility for users who rely on assistive technologies.</li>
-              <li>Additionally, <span class="bold-term">broken ARIA menus</span> lack proper “menuitem” elements, which can make navigation difficult for those using screen readers or keyboard navigation.</li>
-            </ul>
-          </div>
-          <div> 
-            <h4>Conceptual Model</h4>
-            <ul>
-              <li>Seems to <span class="bold-term">prioritize comprehensiveness over intuitive navigation</span>; you can find what you need if you know where to look for it</li>
-              <li>Implies that the <span class="bold-term">expected user is already economically literate</span> (analyst, politician, businessman, etc…)</li>
-              <li><span class="bold-term">Archive model</span> since it seems its depth and organization of data reflect priority on robust record-keeping</li>
-              <li>Homepage needs a “dashboard-like” model to improve accessibility and <span class="bold-term">guidance for a broader audience</span></li>
-            </ul>  
-          </div>
+
+      <div id="accessibility-testing-conceptual-model" class="section">
+        <h3>Accessibility Testing & Conceptual Model</h3>
+        <p>
+          I used <u><a href="https://wave.webaim.org/">WAVE</a></u> to assess
+          technical accessibility, which revealed several violations:
+        </p>
+        <ul>
+          <li>Low contrast ratios and small fonts throughout the site.</li>
+          <li>Missing alt text and captions for images and videos.</li>
+          <li>Skipped heading levels and broken ARIA menu attributes.</li>
+        </ul>
+        <p>
+          The site’s structure reflects an
+          <b>archive-style conceptual model</b>—it prioritizes
+          <b>comprehensiveness over intuitive navigation</b>. You can find what
+          you need if you already know where to look, but the experience offers
+          little guidance for unfamiliar users.
+        </p>
+        <p>
+          It also implies that the
+          <b>intended audience is economically literate</b> (e.g., analysts,
+          policymakers), rather than the general public. My redesign introduces
+          a <b>dashboard-like model</b> aimed at improving
+          <b>scannability and accessibility</b> for a broader audience—without
+          sacrificing depth or credibility.
+        </p>
       </div>
-      <div id="section4" class="section">
-        <h3>Visual Design Style Guide</h3>
-          To ensure consistency across my redesign process, I developed a style guide outlining a template for the colors, typography, components, and other visual elements I plan to integrate into the final website.
-          <br><br>
-          <div class="image-container">
+
+      <div id="style-guide" class="section">
+        <h3>Style Guide</h3>
+        <p>
+          I created a visual style guide to ensure consistency across my
+          redesign. This includes updated colors with accessible contrast, clear
+          typography, and simplified UI components.
+        </p>
+        <div class="image-container">
           <figure>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="450" src="https://embed.figma.com/design/JUDecipy9KU4FrleB3orDy/Style-Guide?node-id=1-3&embed-host=share" allowfullscreen></iframe>      
+            <iframe
+              style="border: 1px solid rgba(0, 0, 0, 0.1)"
+              width="500"
+              height="450"
+              src="https://embed.figma.com/design/JUDecipy9KU4FrleB3orDy/Style-Guide?node-id=1-3&embed-host=share"
+              allowfullscreen
+            ></iframe>
           </figure>
         </div>
       </div>
-      <div id="section5" class="section">
-        <h3>Figma Mockups</h3>
 
-          Next I created Figma mockups that illustrate my website's responsiveness on three distinct screen sizes: desktop, tablet, and smartphone.
-          These are annotated with important design choices as well as my intentions for how the site layout will respond to the various screen sizes.
-          <br><br>
-
-          <div class="image-container">
-            <figure>
-              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="700" height="500" src="https://embed.figma.com/design/cWBCITTVElLs2tJRTkReZ2/Mockups?node-id=0-1&embed-host=share" allowfullscreen></iframe>            
-            </figure>
-          </div>
-
+      <div id="responsive-mockups" class="section">
+        <h3>Responsive Mockups</h3>
+        <p>
+          I designed mockups in Figma for desktop, tablet, and mobile views,
+          annotated with key layout behaviors. Responsiveness ensures
+          readability and usability across devices and various screen sizes.
+        </p>
+        <div class="image-container">
+          <figure>
+            <iframe
+              style="border: 1px solid rgba(0, 0, 0, 0.1)"
+              width="700"
+              height="500"
+              src="https://embed.figma.com/design/cWBCITTVElLs2tJRTkReZ2/Mockups?node-id=0-1&embed-host=share"
+              allowfullscreen
+            ></iframe>
+          </figure>
+        </div>
       </div>
 
-      <div id="section6" class="section">
-        <h3>Bringing the Site to Life</h3>
-          The next step is implementing my mockup with HTML/CSS to achieve the desired responsiveness.
-          <br><br>
-          Click <u><a href="https://rahelselemon.github.io/FederalReserve/">here</a></u> to interact with my redesigned website!
-          <br><br>
-          Here is a comparison of the original vs redesigned homepage on a desktop:
-          <br><br>
-
-          <div class="image-container">
-            <figure>
-              <img src="images/website1.png" class="sec6-imgs" />
-            </figure>
-            <figure>
-              <img src="images/redesign.png" class="sec6-imgs" />
-            </figure>
-          </div>
+      <div id="implementation" class="section">
+        <h3>Implementation</h3>
+        <p>
+          I brought the design to life using HTML and CSS with a focus on
+          semantic markup and media queries. You can explore the live prototype
+          below.
+        </p>
+        <br />
+        <p>
+          <a
+            href="https://rahelselemon.github.io/FederalReserve/"
+            target="_blank"
+            >View the redesigned site</a
+          >
+        </p>
+        <br />
+        <p>Comparison of original vs redesigned desktop homepage:</p>
+        <div class="image-container">
+          <figure>
+            <img src="images/website1.png" class="redesigned-imgs" />
+          </figure>
+          <figure>
+            <img src="images/redesign.png" class="redesigned-imgs" />
+          </figure>
+        </div>
       </div>
 
-      <div id="section7" class="section">
+      <div id="reflection" class="section">
         <h3>Reflection</h3>
         <p>
-          <span class="bold-term">Challenge:</span> Making improvements to the website while maintaining them across different screen sizes!
+          <b>Challenge:</b> Improving the website’s design while ensuring that
+          changes held up across different screen sizes.
         </p>
-        <br>
+        <br />
+        <p><b>How I approached this:</b></p>
+        <ul>
+          <li>
+            <b>Contrast Issues:</b> I created a new color palette with a
+            stronger contrast ratio (8.59) to improve accessibility.
+          </li>
+          <li>
+            <b>Better Spacing:</b> I applied clear padding and margins, using
+            boxes to separate distinct content areas.
+          </li>
+          <li>
+            <b>Text Size and Hierarchy:</b> I increased the minimum text size
+            and added more visual variation to highlight importance and
+            structure.
+          </li>
+          <li>
+            <b>Clutter Reduction:</b> I collapsed navigation items, replaced
+            redundant top nav bars with a footer, and limited the homepage to
+            just the 3 most recent headlines.
+          </li>
+          <li>
+            <b>Graphics:</b> I added more informative icons and subtle
+            animations to signal interactivity.
+          </li>
+        </ul>
+        <br />
+        <p><b>Conclusions:</b></p>
         <p>
-          <span class="bold-term">How I achieved this:</span>
-          <ul>
-            <li><span class="bold-term">Contrast Issues:</span> Designed a new color palette with a stronger contrast ratio (8.59), improving accessibility.</li>
-            <li><span class="bold-term">Better Spacing:</span> Applied effective padding/margins and used boxes to separate distinct items.</li>
-            <li><span class="bold-term">Text Size and Hierarchy:</span> Increased minimum text size and introduced more variation to emphasize hierarchy and importance.</li>
-            <li><span class="bold-term">Clutter Reduction:</span> Consolidated navigation items into a collapsible menu, replaced multiple top navigation bars with a footer, and limited the display to the 3 most recent headlines instead of 10+.</li>
-            <li><span class="bold-term">Graphics:</span> Incorporated more informative icons and added animations to indicate clickable links.</li>
-          </ul>
-        </p>
-        <br>
-        <p>
-          <span class="bold-term">Conclusions:</span> 
-          Overall, I believe my improvements were successful! My primary goal was to make the page less overwhelming for users, allowing them to navigate and understand information more efficiently. 
-          By reducing clutter and improving visual hierarchy, users can now quickly scan for relevant content. 
-        </p>
-        <p>
-          For example, simplifying the layout around the economic charts helped present them as “at-a-glance” indicators rather than overwhelming data. 
-          Additionally, reducing the initial amount of visible text and providing a “See More” button allows users to control how much information they engage with.
-        </p>
-        <p>
-          This approach ensures that new users can intuitively learn how to retrieve specific information and remember their navigation paths using the “Sections” menu and Search bar.
+          These changes make the site feel less overwhelming and easier to
+          navigate. By simplifying layouts—like turning dense charts into quick
+          “at-a-glance” visuals—and adding controls like a “See More” button,
+          users can explore at their own pace. Clearer structure and features
+          like the Sections menu also help new visitors find and remember key
+          content.
         </p>
       </div>
     </div>
-    <footer>Rahel Selemon, CSCI1300 Spring 2025 </footer>
+
+    <footer>Rahel Selemon, CSCI1300 Spring 2025</footer>
   </body>
 </html>
